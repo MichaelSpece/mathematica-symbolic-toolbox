@@ -9,8 +9,7 @@ When you run math, you may be prompted with a dialog box to browse for a Mathema
 (There may be multiple options in your Mathematica installation, 
 including possibly 32 and 64 bit versions as reported by math('$Version').)
 
-Distributed computing support
-    WSTP supports connecting programs on different computers.
+Distributed computing support: WSTP supports connecting programs on different computers.
     Simply run MATLAB on one computer, Mathematica on another; 
     the Mathematica Symbolic Toolbox transparently connects the
     two without imposing additional proprietary licensing
@@ -24,6 +23,7 @@ wstp.h		- C/Link header file
 mathrun.m	- template for compiling math.c
 testscript.m 	- one-line code math function call examples, also included below
 LICENSE.md	- license governing all files in the repo except Mathematica files (wstp.h)
+Version history.md
    
 Usage: Mathematica Symbolic Toolbox is called via the "math" function:
 -----------------------------------------------------------------
